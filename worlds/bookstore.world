@@ -1026,12 +1026,12 @@
 
 
 
-	<model name="Spotlight_01_001">
+	<!-- <model name="Spotlight_01_001">
         <include>
             <uri>model://aws_robomaker_retail_Spotlight_01</uri>
         </include>
         <pose frame="">1.493200 4.692372 3.302658 0 -0 0</pose>
-	</model>
+	</model> -->
 
 	<model name="ShopWindow_01_001">
         <include>

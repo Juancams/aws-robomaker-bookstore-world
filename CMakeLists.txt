@@ -7,7 +7,7 @@ if(NOT CMAKE_CXX_STANDARD)
 endif()
 
 find_package(ament_cmake REQUIRED)
-find_package(gazebo_ros REQUIRED)
+find_package(ros_gz_sim REQUIRED)
 
 install(DIRECTORY launch maps models routes param worlds
   DESTINATION share/${PROJECT_NAME}
