@@ -13,6 +13,8 @@ install(DIRECTORY launch maps models routes param worlds
   DESTINATION share/${PROJECT_NAME}
 )
 
+ament_environment_hooks("${CMAKE_CURRENT_SOURCE_DIR}/env-hooks/aws_robomaker_bookstore_world.dsv.in")
+
 ament_export_dependencies(ament_cmake)
 ament_export_dependencies(gazebo_ros)
 
